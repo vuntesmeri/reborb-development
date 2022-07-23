@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+header {
+    width: 100%;
+    height: 3vw;
+}
+
+@media (max-width:810px) {
+    header {
+        width: 100%;
+        height: 5vh;
+    }
+}
+
+header hr {
+    background-color: darkgoldenrod;
+    height: 1.2vw;
+    margin: 2vmax 0vw 0vw 0vw;
+    border: none;
+    padding: 0;
+
+}
+
+@media (max-width:810px) {
+    header hr {
+        margin: 5vw 0vw 0vw 0vw;
+    }
+}
+
+footer {
+    margin: 0vw;
+    height: 4vw;
+}
+
+footer hr {
+    background-color: darkgoldenrod;
+    height: 1.2vw;
+    margin: 0vw;
+    border: none;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-box {
+    margin: 2vw 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+}
+
+@media (max-width:810px) {
+    .main-box {
+        margin: 2vw 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+.logo {
+    margin: 0vw;
+    height: 100%;
+    width: 45%;
+    background-image: url(./img/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width:810px) {
+    .logo {
+        margin: 0vw;
+        height: 40vh;
+        width: 100%;
+        background-image: url(./img/logo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.box-info {
+    width: 50vw;
+}
+
+@media (max-width:810px) {
+    .box-info {
+        width: 100vw;
+    }
+}
+
+h1 {
+    margin: 2vw 2vw 2vw 2vw;
+    font-size: 2vw;
+}
+
+@media (max-width:810px) {
+    h1 {
+        text-align: center;
+        margin: 1vw 5vw 5vw 5vw;
+        font-size: 4vw;
+    }
+}
+
+a {
+    margin: 10vw 2vw 0 2vw;
+    background-color: darkgoldenrod;
+    padding: 1vw 5vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (max-width:810px) {
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0vw 20vw;
+        font-size: 4vw;
+    }
+}
+
+.main-image {
+    height: 20vw;
+    width: 100vw;
+    background-image: url(./img/city.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -3vw 0 0 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 20%;
+
+}
+
+@media (max-width:810px) {
+    .main-image {
+        background-position: bottom;
+        height: 30vh;
+        /* opacity: 100%; */
+    }
+}
+
+
+.footer-info {
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+@media (max-width:810px) {
+    p {
+        font-size: 1.6vw;
+        margin: 1vw;
+    }
+}
